@@ -1,0 +1,11 @@
+[ibmMqConfig]
+name = "TestMainFrameQM"
+host = "testmainframeqm-905f.qm.eu-de.mq.appdomain.cloud"
+port = 30020
+channel = "CLOUD.ADMIN.SVRCONN"
+userID = "yinyanguy"
+password = "XBH2MVYHdsQBHimmLbwtRYomZkeqhEOI_Y2vHQ-h8ex1"
+sslCipherSuite = "*TLS12ORHIGHER"
+
+[ibmMqConfig.secureSocket]
+cert = "../resources/qmgrcert.pem"

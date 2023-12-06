@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  mq:
+    image: icr.io/ibm-messaging/mq:latest
+    container_name: ibmmq
+    ports:
+      - "1414:1414"
+    environment:
+      - LICENSE=accept
+      - MQ_QMGR_NAME=QM1
+      - MQ_APP_PASSWORD=password
+      - MQ_ENABLE_EMBEDDED_WEB_SERVER=false
+    volumes:
+      - ./resources/server.crt:/etc/mqm/pki/keys/mykey/server.crt
+      - ./resources/server.key:/etc/mqm/pki/keys/mykey/server.key
+    healthcheck:
+      test: ["CMD-SHELL", "chkmqstarted"]
+      interval: 10s
+      timeout: 5s
+      retries: 3

@@ -1,0 +1,502 @@
+### Retrieve the contract
+GET http://localhost:9090/contract
+
+### Create contract
+POST http://localhost:9090/contract
+content-type: application/json
+
+{
+  "DFHCOMMAREA": {
+    "BROKER-MESSAGE-AREA": {
+      "MI-HDR-MSGID": "5000311709",
+      "MI-HDR-SDR-APPL": "BPMS",
+      "MI-HDR-SDR-REGION": "PD4",
+      "MI-HDR-SDR-PROCESS": "PYDXCD1C",
+      "MI-HDR-SDR-SVRNAME": "wlf1n1uaz3t",
+      "MI-HDR-PRF-RECEIVED": "2023/11/13 20:58:04.986",
+      "MI-HDR-PRF-SENT": "2023/11/13 20:58:04.986",
+      "MI-HDR-CORRELID": "414d5120574c53594e39392020202020ed48296533c52925",
+      "MI-HDR-OPERATION": "PYDXCD1C",
+      "MI-HDR-REPLY": "N"
+    },
+    "PROCESS-REQUEST-CONTROL-AREA": {
+      "CICS-TASK-NUMBER": 0,
+      "PROCESS-REQUEST-SEQUENCE-NUMB": 0,
+      "PROCESS-REQUEST-MSG-SQNC-NUMB": 0,
+      "PROCESS-REQUEST-RETURN-CODE": 0,
+      "ERROR-DETAILS": [
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        },
+        {
+          "ERROR-CODE": 0
+        }
+      ]
+    },
+    "INPUT-HDR-DATA": {
+      "SRV-REQ-TYP": "CLTDTL",
+      "SYS-CD": "CP",
+      "POL-NO": "QA0019937N"
+    },
+    "OUTPUT-HDR-DATA": {
+      "CLIENT-DETAIL-COUNTER": 2,
+      "CLIENT-ROLE": [
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 2130688,
+          "BUSINESS-IDENTITY-TYPE": "2",
+          "CLIENT-ROLE-CLASSIFACTION": 12,
+          "CLIENT-ROLE-TYPE": "SO",
+          "PRI-LIFE-INSURED-IND": "N",
+          "PRI-OWNER-IND": "Y",
+          "ORGANISATION-NAME": "EQUITY TRUSTEES SUPERANNUATION LIMITED",
+          "TFN-HELD-IND": "N",
+          "DECEASED-IND": "N",
+          "DECEASED-DT": "00010101",
+          "CLIENT-ADDRESS-COUNTER": 1,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 35961,
+              "ADDRESS-TYPE": "C",
+              "ADDRESSEE": "MST HOTIFMLLOMGVBL AGU",
+              "ADDRESS-LINE-1": "GPO BOX 4134",
+              "SUBURB": "SYDNEY",
+              "STATE": "NSW",
+              "POST-CD": "2100",
+              "COUNTRY-CD": "AU",
+              "COUNTRY-NAME": "AUSTRALIA",
+              "UNFORMATTED-ADDRESS-IND": "N",
+              "OVERSEA-ADDRESS-IND": "N",
+              "WRONG-ADDRESS-IND": "N"
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 2141130,
+          "BUSINESS-IDENTITY-TYPE": "1",
+          "CLIENT-ROLE-CLASSIFACTION": 55,
+          "CLIENT-ROLE-TYPE": "PLI",
+          "PRI-LIFE-INSURED-IND": "Y",
+          "PRI-OWNER-IND": "N",
+          "LIFE-INSURED-TITLE": "Mr",
+          "LIFE-INSURED-SURNAME": "Emvaip",
+          "LIFE-INSURED-FIRST-GIVEN-NAME": "Mlufiq",
+          "LIFE-INSURED-SECOND-GIVEN-NAME": "Bhqmau",
+          "LIFE-INSURED-DOB": "19630602",
+          "LIFE-INSURED-SEX": "M",
+          "EMAIL-ADDRESS": "EMVAIPUBJIF@bigpond.com",
+          "HOME-TELEPHONE-NUM": "0407761102",
+          "MOBILE-NUM": "0407761187",
+          "TFN-HELD-IND": "Y",
+          "DECEASED-IND": "N",
+          "DECEASED-DT": "00010101",
+          "CLIENT-ADDRESS-COUNTER": 2,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 8299979,
+              "ADDRESS-TYPE": "N",
+              "ADDRESSEE": "SF M. B. EMVAIP",
+              "ADDRESS-LINE-1": "PO BOX 162",
+              "SUBURB": "CALLIOPE",
+              "STATE": "QLD",
+              "POST-CD": "4680",
+              "COUNTRY-CD": "AU",
+              "COUNTRY-NAME": "AUSTRALIA",
+              "UNFORMATTED-ADDRESS-IND": "N",
+              "OVERSEA-ADDRESS-IND": "N",
+              "WRONG-ADDRESS-IND": "N"
+            },
+            {
+              "ADDRESS-IDENTIFY": 8299979,
+              "ADDRESS-TYPE": "C",
+              "ADDRESSEE": "SF M B  EMVAIP",
+              "ADDRESS-LINE-1": "PO BOX 162",
+              "SUBURB": "CALLIOPE",
+              "STATE": "QLD",
+              "POST-CD": "4680",
+              "COUNTRY-CD": "AU",
+              "COUNTRY-NAME": "AUSTRALIA",
+              "UNFORMATTED-ADDRESS-IND": "N",
+              "OVERSEA-ADDRESS-IND": "N",
+              "WRONG-ADDRESS-IND": "N"
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        },
+        {
+          "BUSINESS-IDENTITY-IDENTIFY": 0,
+          "CLIENT-ROLE-CLASSIFACTION": 0,
+          "CLIENT-ADDRESS-COUNTER": 0,
+          "ADDRESS-DETAILS": [
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            },
+            {
+              "ADDRESS-IDENTIFY": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
